@@ -2,7 +2,7 @@ CE4_Eichman
 ===========
 
 ##Program A Code Listings 
-![Code File](https://github.com/DanielEichman/CE4_Eichman/blob/master/SimpleMemoryManipulation.psm)]
+![Code File](https://github.com/DanielEichman/CE4_Eichman/blob/master/SimpleMemoryManipulation.psm)
 
 ![Code JPG](https://raw.githubusercontent.com/DanielEichman/CE4_Eichman/master/SMM_Code.JPG)
 
