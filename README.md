@@ -7,16 +7,20 @@ CE4_Eichman
 ![Code JPG](https://raw.githubusercontent.com/DanielEichman/CE4_Eichman/master/SMM_Code.JPG)
 
 This code stores three values (9, 8, and B) in three RAM locations (B0, C4, and CB). The loop at the end of the code is so that program doesn't crash when it reaches the end of the instruction set. I also was able to complete the code by the target program end of 11. 
-##Program B Code Listings 
 ####Results
 At the end of the program the value's in the RAM were correct. 9 was in B0, 8 was in C4, and B was in CB.
+##Program B Code Listings 
+
 ![Code File](https://github.com/DanielEichman/CE4_Eichman/blob/master/Math.psm)
 
 ![Code JPG](https://raw.githubusercontent.com/DanielEichman/CE4_Eichman/master/Math_Code.JPG)
 
 This code takes the value at RAM B0 doubles in and subtracts 4. To do this the value was loaded onto the accumulator. Then the value at B0 was added to the accumulator. This essentially doubles it. Now we have to subtract 4, however there is no subtracting function. To do this the 2's complement of 4 needed to be added to the accumulator. The two's complement of 4 is C. Finally the infinite loop is reached so the program will not crash. I also was able to complete the code by the target program end of 0C. 
+
 ####Results
 At the end of the program the math was done correctly. For and input of 6 output port 3 displayed 8. 4 outputted 4, 8 gave C.
+
+
 ##Program C Code Listings
 ![Code File](https://github.com/DanielEichman/CE4_Eichman/blob/master/Loops.psm)
 
